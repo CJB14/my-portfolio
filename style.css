@@ -8,7 +8,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   color: #778492;
 }
@@ -36,7 +36,7 @@ a:focus {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 8px 16px;
   font-weight: bold;
 }
@@ -109,7 +109,7 @@ a.dotted-link:hover {
   color: #49515a;
 }
 
-/* ======= Header ======= */
+
 .header {
   padding: 30px 0;
   background: #f5f5f5;
@@ -141,9 +141,9 @@ a.dotted-link:hover {
 }
 
 .header .profile-content .social a {
-  background: #b0b7bf;
-  width: 36px;
-  height: 36px;
+  background: #046527;
+  width: 35px;
+  height: 35px;
   display: inline-block;
   border-radius: 50%;
   -moz-background-clip: padding;
@@ -151,10 +151,11 @@ a.dotted-link:hover {
   background-clip: padding-box;
   color: #fff;
   text-align: center;
+  background-image:;
 }
 
 .header .profile-content .social a:hover {
-  background: #778492;
+  background:#046527 ;
 }
 
 .header .profile-content .social a .svg-inline--fa {
@@ -162,7 +163,7 @@ a.dotted-link:hover {
   margin-top: 8px;
 }
 
-/* ======= Sections======= */
+
 .section {
   margin-bottom: 30px;
 }
