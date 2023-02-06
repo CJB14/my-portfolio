@@ -4,6 +4,7 @@
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
+	flex-wrap: wrap;
 }
 .hero{
 	height: 100vh;
@@ -178,6 +179,7 @@ button:hover{
 	justify-content: center;
 	align-items: center;
 	min-height: 400px;
+	flex-wrap: wrap;
 }
 .card{
 	height: 365px;
@@ -326,3 +328,5 @@ footer p:nth-child(2){
 	bottom: 35px;
 	font-size: 14px; 
 }
+
+@media 
